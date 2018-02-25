@@ -5,10 +5,11 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public enum CONTACT_MANAGER_CONSTATNS {
+public enum CONTACT_MANAGER_CONSTANTS {
     NAME("Contact Name"),
     PHONE("Contact Phone"),
-    EMAIL("Contact Email");
+    EMAIL("Contact Email"),
+    ADDBTN("Add Contact");
 
     private final String text;
 
