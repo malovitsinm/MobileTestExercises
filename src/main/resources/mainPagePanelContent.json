@@ -1,0 +1,33 @@
+{
+  "data_1": {
+    "blockLocator" : "#home-panel-domains",
+    "title": "Domain Names",
+    "content": "Management of the DNS Root Zone (assignments of ccTLDs and gTLDs) along with other functions such as the .int and .arpa zones.",
+    "links": [
+      "Root Zone Management",
+      "Database of Top Level Domains",
+      ".int Registry",
+      ".arpa Registry",
+      "IDN Practices Repository"
+    ]
+  },
+  "data_2": {
+    "blockLocator" : "#home-panel-numbers",
+    "title": "Number Resources",
+    "content": "Coordination of the global IP and AS number spaces, such as allocations made to Regional Internet Registries.",
+    "links": [
+      "IP Addresses & AS Numbers",
+      "Network abuse information"
+    ]
+  },
+  "data_3": {
+    "blockLocator" : "#home-panel-protocols",
+    "title": "Protocol Assignments",
+    "content": "The central repository for protocol name and number registries used in many Internet protocols.",
+    "links": [
+      "Protocol Registries",
+      "Apply for an assignment",
+      "Time Zone Database"
+    ]
+  }
+}
