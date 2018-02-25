@@ -14,5 +14,5 @@ I've noticed a minor decrease in performance, although I can't confidently say w
 
 The usual suspects:
 - We need to get rid of thread.wait() (this is just criminal) and implement some kind of timed waiter;
-- All of hardcoded values should be replaced either by ENUM constants or values read from properties;
+- All of hardcoded values should be replaced either by ENUM constants or values read from properties so all of the data would be stored in one place (a single change to code would not result in full project rebuild and would affect all of it's uses);
 - Our tests are not really tests, we should figure out what are we even testing and create pageObject classes;
