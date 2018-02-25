@@ -8,8 +8,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertyHandler {
-    Properties currentProps = new Properties();
-
     @SneakyThrows
     public static Properties assembleProperties(String path){
         Properties props = new Properties();
