@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1">
+    <test name="Web Tests">
+        <parameter name="config" value="src\main\resources\web.properties"/>
+        <parameter name="homePageContentTest" value="src\main\resources\mainPagePanelContent.json"/>
+        <groups>
+            <run>
+                <include name="Web"/>
+                <exclude name="Native"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="MobileWebTest"/>
+        </classes>
+    </test>
+</suite>

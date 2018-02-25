@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1">
+    <test name="App Tests">
+        <parameter name="config" value="src\main\resources\native.properties"/>
+        <groups>
+            <run>
+                <include name="Native"/>
+                <exclude name="Web"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="MobileAppTest"/>
+        </classes>
+    </test>
+</suite>
